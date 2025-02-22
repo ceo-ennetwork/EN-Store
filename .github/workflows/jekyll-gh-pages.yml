@@ -1,0 +1,44 @@
+# _config.yml for EN Store on GitHub Pages
+title: EN Store
+description: "Welcome to EN Store - Your one-stop shop for EN Network Cr Ltd products and services."
+url: "https://www.ennetworkltd.com"  # Your domain name
+baseurl: "/"  # Adjust based on whether you're hosting it on a subdirectory or root
+github:
+  owner: "ceo-ennetwork"
+  repo: "EN-Store"
+theme: "minima"  # Choose your preferred theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# For a custom store, you can add features here like product listings
+store:
+  name: "EN Store"
+  slogan: "The future of technology at your fingertips"
+  contact_email: "support@ennetworkltd.com"
+  phone_number: "01331458409"
+  social_media:
+    facebook: "https://facebook.com/ennetworkltd"
+    twitter: "https://twitter.com/ennetworkltd"
+    linkedin: "https://linkedin.com/company/ennetworkltd"
+
+# Add the paths for product categories, etc.
+products:
+  - name: "EN Web Services"
+    description: "Custom web development, SEO tools, and more."
+    link: "https://www.ennetworkltd.com/web-services"
+  - name: "EN Marketing"
+    description: "Email marketing, social media services, and growth strategies."
+    link: "https://www.ennetworkltd.com/marketing"
+  - name: "EN Cloud"
+    description: "Reliable cloud solutions for your business."
+    link: "https://www.ennetworkltd.com/cloud"
+
+# Jekyll settings for pagination, if you have a blog or product listings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Set the Jekyll version and GitHub Pages gem
+gems:
+  - jekyll-github-pages
